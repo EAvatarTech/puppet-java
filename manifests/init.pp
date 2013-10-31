@@ -1,4 +1,4 @@
-class java($version='present') {
+class java($version='present', $distribution='jdk') {
 
   exec { 'enforce_apt_update':
     command => 'apt-get update',
