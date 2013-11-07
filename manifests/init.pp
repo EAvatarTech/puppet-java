@@ -1,4 +1,4 @@
-class java($version='present', $distribution='jdk') {
+class java($version='7u45-0~webupd8~0', $distribution='jdk') {
 
     if( !defined(Class['apt']) ) {
         class { 'apt': }
